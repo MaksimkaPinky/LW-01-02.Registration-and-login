@@ -24,7 +24,7 @@ namespace LW_01_02.Registration_and_login
             Form1.IS.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //Проверка заполнения данных в регистрационной форме
         {
             if (textBox1.Text == " " || textBox2.Text == " " || textBox3.Text == " " || textBox4.Text == " " || textBox5.Text == " ")
             {
